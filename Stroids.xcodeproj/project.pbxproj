@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DDD2DE721AD9DF2C00BA044D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD2DE711AD9DF2C00BA044D /* AppDelegate.swift */; };
+		DDD2DE741AD9DF2C00BA044D /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = DDD2DE731AD9DF2C00BA044D /* GameScene.sks */; };
+		DDD2DE761AD9DF2C00BA044D /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD2DE751AD9DF2C00BA044D /* GameScene.swift */; };
+		DDD2DE781AD9DF2C00BA044D /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD2DE771AD9DF2C00BA044D /* GameViewController.swift */; };
+		DDD2DE7B1AD9DF2C00BA044D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDD2DE791AD9DF2C00BA044D /* Main.storyboard */; };
+		DDD2DE7D1AD9DF2C00BA044D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDD2DE7C1AD9DF2C00BA044D /* Images.xcassets */; };
+		DDD2DE801AD9DF2C00BA044D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDD2DE7E1AD9DF2C00BA044D /* LaunchScreen.xib */; };
+		DDD2DE8C1AD9DF2C00BA044D /* StroidsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD2DE8B1AD9DF2C00BA044D /* StroidsTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DDD2DE861AD9DF2C00BA044D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDD2DE641AD9DF2C00BA044D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDD2DE6B1AD9DF2C00BA044D;
+			remoteInfo = Stroids;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DDD2DE6C1AD9DF2C00BA044D /* Stroids.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stroids.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDD2DE701AD9DF2C00BA044D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDD2DE711AD9DF2C00BA044D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DDD2DE731AD9DF2C00BA044D /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		DDD2DE751AD9DF2C00BA044D /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		DDD2DE771AD9DF2C00BA044D /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		DDD2DE7A1AD9DF2C00BA044D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DDD2DE7C1AD9DF2C00BA044D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DDD2DE7F1AD9DF2C00BA044D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DDD2DE851AD9DF2C00BA044D /* StroidsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StroidsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDD2DE8A1AD9DF2C00BA044D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDD2DE8B1AD9DF2C00BA044D /* StroidsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StroidsTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDD2DE691AD9DF2C00BA044D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDD2DE821AD9DF2C00BA044D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDD2DE631AD9DF2C00BA044D = {
+			isa = PBXGroup;
+			children = (
+				DDD2DE6E1AD9DF2C00BA044D /* Stroids */,
+				DDD2DE881AD9DF2C00BA044D /* StroidsTests */,
+				DDD2DE6D1AD9DF2C00BA044D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDD2DE6D1AD9DF2C00BA044D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDD2DE6C1AD9DF2C00BA044D /* Stroids.app */,
+				DDD2DE851AD9DF2C00BA044D /* StroidsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDD2DE6E1AD9DF2C00BA044D /* Stroids */ = {
+			isa = PBXGroup;
+			children = (
+				DDD2DE711AD9DF2C00BA044D /* AppDelegate.swift */,
+				DDD2DE731AD9DF2C00BA044D /* GameScene.sks */,
+				DDD2DE751AD9DF2C00BA044D /* GameScene.swift */,
+				DDD2DE771AD9DF2C00BA044D /* GameViewController.swift */,
+				DDD2DE791AD9DF2C00BA044D /* Main.storyboard */,
+				DDD2DE7C1AD9DF2C00BA044D /* Images.xcassets */,
+				DDD2DE7E1AD9DF2C00BA044D /* LaunchScreen.xib */,
+				DDD2DE6F1AD9DF2C00BA044D /* Supporting Files */,
+			);
+			path = Stroids;
+			sourceTree = "<group>";
+		};
+		DDD2DE6F1AD9DF2C00BA044D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDD2DE701AD9DF2C00BA044D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DDD2DE881AD9DF2C00BA044D /* StroidsTests */ = {
+			isa = PBXGroup;
+			children = (
+				DDD2DE8B1AD9DF2C00BA044D /* StroidsTests.swift */,
+				DDD2DE891AD9DF2C00BA044D /* Supporting Files */,
+			);
+			path = StroidsTests;
+			sourceTree = "<group>";
+		};
+		DDD2DE891AD9DF2C00BA044D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDD2DE8A1AD9DF2C00BA044D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDD2DE6B1AD9DF2C00BA044D /* Stroids */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDD2DE8F1AD9DF2C00BA044D /* Build configuration list for PBXNativeTarget "Stroids" */;
+			buildPhases = (
+				DDD2DE681AD9DF2C00BA044D /* Sources */,
+				DDD2DE691AD9DF2C00BA044D /* Frameworks */,
+				DDD2DE6A1AD9DF2C00BA044D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Stroids;
+			productName = Stroids;
+			productReference = DDD2DE6C1AD9DF2C00BA044D /* Stroids.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DDD2DE841AD9DF2C00BA044D /* StroidsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDD2DE921AD9DF2C00BA044D /* Build configuration list for PBXNativeTarget "StroidsTests" */;
+			buildPhases = (
+				DDD2DE811AD9DF2C00BA044D /* Sources */,
+				DDD2DE821AD9DF2C00BA044D /* Frameworks */,
+				DDD2DE831AD9DF2C00BA044D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDD2DE871AD9DF2C00BA044D /* PBXTargetDependency */,
+			);
+			name = StroidsTests;
+			productName = StroidsTests;
+			productReference = DDD2DE851AD9DF2C00BA044D /* StroidsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDD2DE641AD9DF2C00BA044D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Aalaap Narasipura";
+				TargetAttributes = {
+					DDD2DE6B1AD9DF2C00BA044D = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					DDD2DE841AD9DF2C00BA044D = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = DDD2DE6B1AD9DF2C00BA044D;
+					};
+				};
+			};
+			buildConfigurationList = DDD2DE671AD9DF2C00BA044D /* Build configuration list for PBXProject "Stroids" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDD2DE631AD9DF2C00BA044D;
+			productRefGroup = DDD2DE6D1AD9DF2C00BA044D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDD2DE6B1AD9DF2C00BA044D /* Stroids */,
+				DDD2DE841AD9DF2C00BA044D /* StroidsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDD2DE6A1AD9DF2C00BA044D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDD2DE801AD9DF2C00BA044D /* LaunchScreen.xib in Resources */,
+				DDD2DE7D1AD9DF2C00BA044D /* Images.xcassets in Resources */,
+				DDD2DE741AD9DF2C00BA044D /* GameScene.sks in Resources */,
+				DDD2DE7B1AD9DF2C00BA044D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDD2DE831AD9DF2C00BA044D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDD2DE681AD9DF2C00BA044D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDD2DE761AD9DF2C00BA044D /* GameScene.swift in Sources */,
+				DDD2DE781AD9DF2C00BA044D /* GameViewController.swift in Sources */,
+				DDD2DE721AD9DF2C00BA044D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDD2DE811AD9DF2C00BA044D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDD2DE8C1AD9DF2C00BA044D /* StroidsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DDD2DE871AD9DF2C00BA044D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDD2DE6B1AD9DF2C00BA044D /* Stroids */;
+			targetProxy = DDD2DE861AD9DF2C00BA044D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DDD2DE791AD9DF2C00BA044D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDD2DE7A1AD9DF2C00BA044D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DDD2DE7E1AD9DF2C00BA044D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDD2DE7F1AD9DF2C00BA044D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DDD2DE8D1AD9DF2C00BA044D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DDD2DE8E1AD9DF2C00BA044D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDD2DE901AD9DF2C00BA044D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Stroids/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DDD2DE911AD9DF2C00BA044D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Stroids/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DDD2DE931AD9DF2C00BA044D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = StroidsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stroids.app/Stroids";
+			};
+			name = Debug;
+		};
+		DDD2DE941AD9DF2C00BA044D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = StroidsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stroids.app/Stroids";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDD2DE671AD9DF2C00BA044D /* Build configuration list for PBXProject "Stroids" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDD2DE8D1AD9DF2C00BA044D /* Debug */,
+				DDD2DE8E1AD9DF2C00BA044D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDD2DE8F1AD9DF2C00BA044D /* Build configuration list for PBXNativeTarget "Stroids" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDD2DE901AD9DF2C00BA044D /* Debug */,
+				DDD2DE911AD9DF2C00BA044D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DDD2DE921AD9DF2C00BA044D /* Build configuration list for PBXNativeTarget "StroidsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDD2DE931AD9DF2C00BA044D /* Debug */,
+				DDD2DE941AD9DF2C00BA044D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDD2DE641AD9DF2C00BA044D /* Project object */;
+}
